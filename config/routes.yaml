@@ -1,3 +1,21 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+app.blog_post:
+    prefix: '/blog_posts'
+    name_prefix: 'app.blog_post.'
+    resource: '@DdrCrudAdminBundle/Resources/config/crud_routes.yaml'
+    defaults:
+        ddr_crud_admin.routes.prefix: 'app.blog_post.'
+        ddr_crud_admin.entity_class: 'App\Entity\BlogPost'
+        ddr_crud_admin.fields:
+            CREATE: ['title','content']
+            UPDATE: ['title','content']
+
+app.user:
+    prefix: '/users'
+    name_prefix: 'app.user.'
+    resource: '@DdrCrudAdminBundle/Resources/config/crud_routes.yaml'
+    defaults:
+        ddr_crud_admin.routes.prefix: 'app.user.'
+        ddr_crud_admin.entity_class: 'App\Entity\User'
+        ddr_crud_admin.form_type: 'App\Form\UserType'
+        ddr_crud_admin.fields:
+            LIST: ['id','username','roles']
