@@ -1,0 +1,4 @@
+CREATE: 'Create BlogPost'
+UPDATE: 'Update BlogPost'
+LIST: 'Blog Posts'
+READ: 'Blog Post'

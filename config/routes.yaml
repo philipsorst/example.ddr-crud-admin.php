@@ -5,9 +5,11 @@ app.blog_post:
     defaults:
         ddr_crud_admin.routes.prefix: 'app.blog_post.'
         ddr_crud_admin.entity_class: 'App\Entity\BlogPost'
+        ddr_crud_admin.translation_domain: 'BlogPost'
         ddr_crud_admin.fields:
             CREATE: ['title','content']
             UPDATE: ['title','content']
+
 
 app.user:
     prefix: '/users'

@@ -1,0 +1,2 @@
+entity_class: App\Entity\BlogPost
+name_prefix: app.blog_post.
