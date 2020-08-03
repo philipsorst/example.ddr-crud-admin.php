@@ -36,7 +36,7 @@ class UpdatedSubscriber implements EventSubscriber
     public function updateUpdated(LifecycleEventArgs $args)
     {
         $entity = $args->getEntity();
-        if ($entity instanceof UpdatedInterface && null === $entity->getUpdated()) {
+        if ($entity instanceof UpdatedInterface) {
             $entity->setUpdated((int)(microtime(true) * 1000));
         }
     }

@@ -38,7 +38,7 @@ class Comment implements CreatedInterface, AuthorInterface
     private ?string $content = null;
 
     /**
-     * @ORM\Column(type="bigint", nullable=false)
+     * @ORM\Column(type="microtime", nullable=false)
      */
     private ?int $created = null;
 

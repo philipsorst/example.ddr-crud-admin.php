@@ -41,3 +41,7 @@ services:
     App\Event\Subscriber\AuthorSubscriber:
         tags:
             - { name: 'doctrine.event_subscriber' }
+
+    App\Provider\MicrotimeRendererProvider:
+        tags:
+            - { name: 'ddr_crud_admin.field_renderer_provider', priority: -240 }

@@ -38,12 +38,12 @@ class BlogPost implements CreatedInterface, UpdatedInterface, AuthorInterface
     private ?User $author = null;
 
     /**
-     * @ORM\Column(type="bigint")
+     * @ORM\Column(type="microtime")
      */
     private ?int $created = null;
 
     /**
-     * @ORM\Column(type="bigint")
+     * @ORM\Column(type="microtime")
      */
     private ?int $updated = null;
 

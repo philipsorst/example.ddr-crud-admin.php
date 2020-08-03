@@ -1490,12 +1490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dontdrinkandroot/crud-admin-bundle.php.git",
-                "reference": "693fe9db854255457af08804246e4ef2f438f1e4"
+                "reference": "1a0f10407c48c6f29e4bad601f6cf6daa7bcc072"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dontdrinkandroot/crud-admin-bundle.php/zipball/693fe9db854255457af08804246e4ef2f438f1e4",
-                "reference": "693fe9db854255457af08804246e4ef2f438f1e4",
+                "url": "https://api.github.com/repos/dontdrinkandroot/crud-admin-bundle.php/zipball/1a0f10407c48c6f29e4bad601f6cf6daa7bcc072",
+                "reference": "1a0f10407c48c6f29e4bad601f6cf6daa7bcc072",
                 "shasum": ""
             },
             "require": {
@@ -1545,7 +1545,7 @@
                 }
             ],
             "description": "Generic CRUD Admin with Doctrine Support",
-            "time": "2020-08-03T15:36:44+00:00"
+            "time": "2020-08-03T21:25:44+00:00"
         },
         {
             "name": "knplabs/knp-components",
